@@ -83,3 +83,5 @@ python -m unittest discover -s tests -v
 - `POST /api/timers/<id>/stop`
 - `GET /api/active`
 - `GET /api/report?from=YYYY-MM-DD&to=YYYY-MM-DD`
+
+Проверка выполнена 28.10.2026 на Windows с Python 3.12. Все 5 автоматических тестов пройдены успешно (Ran 5 tests — OK). Ошибка WinError 32 устранена корректным закрытием SQLite-соединений.
